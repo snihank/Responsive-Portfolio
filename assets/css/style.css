@@ -227,18 +227,56 @@ body {
 
   @media screen and (max-width: 768px) {
 
-   
-   
+    .work {
+      width: 500px;
+      height: 400px;
+      margin-left: 12%;
+
+    }
+
+    nav {
+      margin-right: 5%;
+    }
 
   }
 
 
   @media screen and (max-width: 640px) {
 
+    #logo {
+      width: 100%;
+      font-size: 50px;
+    }
+
+    nav {
+      padding: 0 40% 3% 40%;
+    }
+
+    nav a:first-child {
+      border-left: 1px solid #efefef;
+    }
+
+    #main-container {
+      padding-top : 100px;
+    }
+
+    .work {
+      width: 300px;
+      height: 200px;
+    }
     
+    h1 {
+      padding-left: 28%;
+    }
 
     #masthead {
       position: static;
+    }
+
+    input[type=submit] {
+
+      margin-left: 28%;
+
     }
 
   }
